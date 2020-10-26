@@ -23,7 +23,7 @@ function setup(){
 
     database = firebase.database();
 
-    createCanvas(displayWidth -40, displayHeight - 50);
+    createCanvas(displayWidth , displayHeight);
 
     game = new Game();
     game.getState();
